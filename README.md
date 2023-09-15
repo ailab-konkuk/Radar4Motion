@@ -7,5 +7,5 @@ coming soon...
 <img src="./images/main.gif" width="800">
 
 4D Imaiging radar point cloud-based odometry algorithm
- - Sensor: single Bitsensing AFI910
+ - Sensor: single bitsensing AFI910
  - Bundang-gu, Seongnam-si, South Korea (complex urban area)
