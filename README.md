@@ -1,5 +1,5 @@
 # Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
-4D Imaging Radar-only Odometry with RCS-weighted correspondences
+Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
 
 coming soon...
 
