@@ -1,11 +1,22 @@
 # Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
-4D Imaging Radar-only Odometry with RCS-weighted correspondences
-
-coming soon...
+The code and dataset (ROS bag files) will be uploaded by February 2024!
 
 ## Demo
 <img src="./images/main.gif" width="800">
 
-4D Imaiging radar point cloud-based odometry algorithm
- - Sensor: single Bitsensing AFI910
- - Bundang-gu, Seongnam-si, South Korea (complex urban area)
+## Dataset
+- Format
+    - rosbag (*.bag*)
+- Data acquired from ***Bundang-gu, Seongnam-si in South Korea***.
+<img src="./images/real-world.png" width="500">
+    - Sensor: Bitsensing AFI910, RTK-GNSS(Novatel CPT7), Velodyne 32ch LiDAR, Camera
+    - **Available Topics**
+        - 4D Imaging: `/afi910_cloud_node/cloud`
+        - RTK-GNSS: `/novatel/oem7/inspvax`
+        - 32ch LiDAR: `/velodyne_points`
+        - Camera: `/a2A1920/image_raw/compressed`
+
+## Contact
+
+If you have any questions, please let me know:
+- Soyeong Kim (`kimchuorok@gmail.com`)
