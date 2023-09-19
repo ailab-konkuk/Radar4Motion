@@ -21,7 +21,7 @@ The code and dataset (ROS bag files) will be uploaded by February 2024!
     - Sensor
         - Bitsensing AFI910, RTK-GNSS(Novatel CPT7), Velodyne 32ch LiDAR, Camera
     - **Available Topics**
-        - 4D Imaging: `/afi910_cloud_node/cloud`
+        - 4D Imaging Radar: `/afi910_cloud_node/cloud`
         - RTK-GNSS: `/novatel/oem7/inspvax`
         - 32ch LiDAR: `/velodyne_points`
         - Camera: `/a2A1920/image_raw/compressed`
