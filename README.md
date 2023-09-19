@@ -1,10 +1,18 @@
 # Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
+Codes for paper "*Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences*"
 
 The code and dataset (ROS bag files) will be uploaded by February 2024!
 
 ## Demo
+<img src="./images/lidar_versus_radar.png" width="800">
+
+- **Beige**: 32ch LiDAR Point Cloud
+- **Rainbow (bold)**: 4D Imaging Radar Point Cloud
 
 <img src="./images/main.gif" width="800">
+
+- The above `gif` shows **ONLY** odometry-based mapping results.
+    - *NO loop-closure, NO inertial sensor, NO GNSS sensor*
 
 ## Dataset
 - Format
