@@ -1,5 +1,5 @@
-# Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
-Codes for paper "*Rad4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences*"
+# Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
+Codes for paper "*Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences*"
 
 The code and dataset (ROS bag files) will be uploaded by February 2024!
 
