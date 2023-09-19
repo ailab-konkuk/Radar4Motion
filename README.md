@@ -22,3 +22,8 @@ The code and dataset (ROS bag files) will be uploaded by February 2024!
 
 If you have any questions, please let me know:
 - Soyeong Kim (`kimchuorok@gmail.com`)
+
+## Acknowledgement
+
+In the development of this package, we refer to [KISS-ICP](https://github.com/PRBonn/kiss-icp) and [REVE](https://github.com/christopherdoer/reve) for source codes.\
+We utilized a [evo](https://github.com/MichaelGrupp/evo) package for odometry evaluation.
