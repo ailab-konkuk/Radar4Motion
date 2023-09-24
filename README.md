@@ -1,7 +1,7 @@
 # Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
 Codes for paper "*Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences*"
 
-The code and dataset (ROS bag files) will be uploaded by February 2024!
+The code and dataset (ROS bag files) will be uploaded by December 2023!
 
 ## Demo
 <img src="./images/lidar_versus_radar.png" width="800">
