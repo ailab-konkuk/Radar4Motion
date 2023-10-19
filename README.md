@@ -9,10 +9,19 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
 - **Beige**: 32ch LiDAR Point Cloud
 - **Rainbow (bold)**: 4D Imaging Radar Point Cloud
 
+### Trajectory 1 (Urban)
 <img src="./images/main.gif" width="800">
 
+### Trajectory 2 (Tunnel)
+<img src="./images/tunnel_odom.gif" width="800">
+
 - The above `gif` shows **ONLY** odometry-based mapping results.
-    - *NO loop-closure, NO inertial sensor, NO GNSS sensor*
+    - *NO inertial sensor, NO GNSS sensor, NO loop-closure*
+    - **Only Single front-view 4D Imaging Radar!**
+        - *yellow* : feature point cloud
+        - *red* : submap point cloud
+        - *rainbow* : raw radar point cloud
+        - *white* : 32ch-LiDAR point cloud
 
 ## Dataset
 - Format
@@ -23,6 +32,7 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
     - **Available Topics**
         - 4D Imaging Radar: `/afi910_cloud_node/cloud`
         - RTK-GNSS: `/novatel/oem7/inspvax`
+        - IMU: `/novatel/oem7/corrimu`
         - 32ch LiDAR: `/velodyne_points`
         - Camera: `/a2A1920/image_raw/compressed`
 
