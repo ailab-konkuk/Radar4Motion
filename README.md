@@ -1,19 +1,43 @@
+<img src="images/logo.png" align="right" width="30%">
+
 # Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
 Codes for paper "*Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences*"
 
+Radar4Motion is a robust odometry method that utilizes Doppler and RCS information from the 4D imaging radar's point cloud, even in the presence of noisy and sparse point cloud data.
+
 The code and dataset (ROS bag files) will be uploaded after the review process!
 
+<div align="center">
+<img src="images/system_architecture.png" width="700"/>
+<br />
+<b>System architecture</b>
+</div>
+<br>
+
 ## Demo
-<img src="./images/lidar_versus_radar.png" width="800">
+<div align="center">
+<p float="center">
+<img src="./images/lidar_versus_radar.png" width="600"/>
+<br />
+<b>32ch LiDAR (beige) vs. 4D Imaging Radar (rainbow)</b>
+</p>
+</div>
 
-- **Beige**: 32ch LiDAR Point Cloud
-- **Rainbow (bold)**: 4D Imaging Radar Point Cloud
+<div align="center">
+<p float="center">
+<img src="./images/main.gif" width="600"/>
+<br />
+<b>Trajectory 1 (Urban)</b>
+</p>
+</div>
 
-### Trajectory 1 (Urban)
-<img src="./images/main.gif" width="800">
-
-### Trajectory 2 (Tunnel)
-<img src="./images/tunnel_odom.gif" width="800">
+<div align="center">
+<p float="center">
+<img src="./images/tunnel_odom.gif" width="600"/>
+<br />
+<b>Trajectory 2 (Tunnel)</b>
+</p>
+</div>
 
 - The above `gif` shows **ONLY** odometry-based mapping results.
     - *NO inertial sensor, NO GNSS sensor, NO loop-closure*
@@ -24,9 +48,17 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
         - *white* : 32ch-LiDAR point cloud
 
 ## Dataset
+<div align="center">
+<p float="center">
+<img src="./images/real-world.png" width="600"/>
+<br />
+<b>Data acquistion platform & area</b>
+</p>
+</div>
+
 - Format
     - rosbag (*.bag*)
-- Data acquired from ***Bundang-gu, Seongnam-si in South Korea*** <img src="./images/real-world.png" width="500">
+- Data acquired from ***Bundang-gu, Seongnam-si in South Korea***
     - Sensor
         - Bitsensing AFI910, RTK-GNSS(Novatel CPT7), Velodyne 32ch LiDAR, Camera
     - **Available Topics**
