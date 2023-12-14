@@ -1,4 +1,4 @@
-<img src="images/logo.png" align="right" width="30%">
+<img src="docs/logo.png" align="right" width="30%">
 
 # Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences
 Codes for paper "*Radar4Motion: 4D Imaging Radar IMU-free Odometry with RCS-weighted Correspondences*"
@@ -8,7 +8,7 @@ Radar4Motion is a robust odometry method that utilizes Doppler and RCS informati
 The code and dataset (ROS bag files) will be uploaded after the review process!
 
 <div align="center">
-<img src="images/system_architecture.png" width="700"/>
+<img src="docs/system_architecture.png" width="700"/>
 <br />
 <b>System architecture</b>
 </div>
@@ -17,7 +17,7 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
 ## Demo
 <div align="center">
 <p float="center">
-<img src="./images/lidar_versus_radar.png" width="600"/>
+<img src="./docs/lidar_versus_radar.png" width="600"/>
 <br />
 <b>32ch LiDAR (beige) vs. 4D Imaging Radar (rainbow)</b>
 </p>
@@ -25,7 +25,7 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
 
 <div align="center">
 <p float="center">
-<img src="./images/main.gif" width="600"/>
+<img src="./docs/main.gif" width="600"/>
 <br />
 <b>Trajectory 1 (Urban)</b>
 </p>
@@ -33,7 +33,7 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
 
 <div align="center">
 <p float="center">
-<img src="./images/tunnel_odom.gif" width="600"/>
+<img src="./docs/tunnel_odom.gif" width="600"/>
 <br />
 <b>Trajectory 2 (Tunnel)</b>
 </p>
@@ -50,7 +50,7 @@ The code and dataset (ROS bag files) will be uploaded after the review process!
 ## Dataset
 <div align="center">
 <p float="center">
-<img src="./images/real-world.png" width="600"/>
+<img src="./docs/real-world.png" width="600"/>
 <br />
 <b>Data acquistion platform & area</b>
 </p>
